@@ -1,0 +1,222 @@
+.back{
+    display: flex;
+    align-items: center;
+}
+.sub_block_flex_container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex_container{
+    position: relative;
+    max-width: 350px;
+    min-height:500px;
+    height: auto;
+    margin: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.container_top__text{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-weight: 1000;
+}
+.mid_prem{
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+
+}
+.journalist{
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+}
+.version{
+    font-size: 23px;
+    font-weight: 700;
+}
+.element{
+    width: 100%;
+    padding:1.5rem;
+    color: #1c1c1c;
+    font-weight: 700;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.element{
+    border-bottom: 1px solid #c3c3c375;
+}
+.element:last-child{
+    border: 0;
+}
+.button-subs{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    background: #1c1c1c;
+    color: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: 700;
+    font-size: 17px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.unable{
+    text-decoration: line-through;
+}
+.release{
+    padding: 0.5rem;
+    background: #fff;
+    color: #1c1c1c;
+}
+.text__container_short_info h2{
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+}
+.text__container_short_info h2:first-child{
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+}
+h2{
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    text-align: left;
+    font-weight: 800;
+}
+h2:first-child{
+    padding-top: 0.5rem;
+}
+.iframe__cont{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+iframe{
+    border-radius: 0.2rem;
+    
+}
+.img_materials{
+    max-width: 350px;
+    width: 100%;
+    max-height: 700px;
+    object-fit: cover;
+    height: auto;
+    padding: 0.5rem;
+}
+.main__img_info{
+    margin: 1rem 0 1rem 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main__text_container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+}
+.main_text_info{
+    width: 70%;
+    text-align: justify;
+}
+.main_text_info p{
+        padding-top: 1rem;
+}
+@media screen and (min-width:600px) {
+   .text__container_short_info{
+        padding: 1rem;
+        margin-left: 2rem;
+        background: #f9f9f9;
+   }
+   hr{
+        display: block;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+   }
+   .footer__text .footer__icons{
+        display: none;
+    }
+    .thumbnail{
+        width: 100%;
+        min-height: 350px;
+        max-height: 350px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+.thumbnail{
+    width: 100%;
+    height: 150px;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.text__container_short_info{ 
+    text-align: justify;
+    height: auto;
+    width: 30%;
+    border-radius: 10px;
+} 
+.text__container_short_info p{
+    padding-top: 1rem;
+}
+.thumbnail__box{
+    position: relative;
+    width: 100%;
+}
+
+.main__thumbnail{
+    max-width: 100%;
+    height: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+}
+.remark{
+    font-size: 0.7rem;
+    color: #c2c2c2;
+    font-weight: 500;
+    text-align: right;
+    margin-top: 0.5rem;
+}
+.options{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.share-icon{
+    max-width: 25px;
+    height: 25px;
+}
+.hashtag__block{
+    display: flex;
+    justify-content: left;
+}
+.share{
+    border: 0;
+    background: transparent;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+.tag{
+    margin-right: 1rem;
+    font-size: 0.8rem;
+    color: #c2c2c2;
+    cursor: pointer;
+}
+
+
