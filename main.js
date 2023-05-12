@@ -5,7 +5,7 @@ $('#subscription_form').on('submit', function (e) {
     var $form = $(this);
     $.ajax({
     type: 'POST',
-    url: './subscription_ajax.php',
+    url: 'subscription_ajax.php',
     data: $form.serialize()
     }).done(function () {
     $form[0].reset()
